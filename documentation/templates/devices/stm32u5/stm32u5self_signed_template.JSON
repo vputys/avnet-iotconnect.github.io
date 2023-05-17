@@ -1,6 +1,6 @@
 {
-    "code": "stm32u5self_signed",
-    "name": "stm32u5self_signed",
+    "code": "stm32u5ss",
+    "name": "stm32u5ss",
     "authType": 3,
     "isIotEdgeEnable": false,
     "attributes": [

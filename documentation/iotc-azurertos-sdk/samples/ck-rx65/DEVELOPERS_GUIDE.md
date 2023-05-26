@@ -223,7 +223,7 @@ sub-directory.
 
 ## Setup the CK-RX65N board
 
-[Setup the CK-RX65N](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/rx65n-cloud-kit-renesas-rx65n-cloud-kit).
+[Setup the CK-RX65N](https://www.renesas.com/us/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/ck-rx65n-cloud-kit-based-rx65n-mcu-group).
 
 Connect the two USB-micro leads and the ethernet cable:
 

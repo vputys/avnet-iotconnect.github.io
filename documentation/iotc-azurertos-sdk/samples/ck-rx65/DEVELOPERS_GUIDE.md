@@ -408,16 +408,15 @@ In this case the symmetric key is:
 
 ## IoTConnect template and device
 
-For further information, please consult the "Knowledge Base" which can be found
-on the [left side of the IoTConnect dashboard](https://help.iotconnect.io).
+For further information, please consult the [Knowledge Base](https://help.iotconnect.io) which can be found
+on the left side of the IoTConnect dashboard in the "Resources" section.
 
 <img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_17_02_2023_13_41_11.png"/>
 
 ### Create IoTConnect template
 
 Log into your IoTConnect account and open the appropriate Device page which can
-be found on the [left side of the IoTConnect
-dashboard](https://avnet.iotconnect.io/device/1).
+be found on the left side of the IoTConnect dashboard.
 
 The template page can be selected by using the "Templates" tab at the bottom of
 the page.
@@ -458,8 +457,7 @@ drop-down list.
 ### Create IoTConnect device
 
 Log into your IoTConnect account and open the appropriate Device page which can
-be found on the [left side of the IoTConnect
-dashboard](https://avnet.iotconnect.io/device/1).
+be found on the left side of the IoTConnect dashboard.
 
 The device page can be selected by using the "Devices" tab at the bottom of the
 page.
@@ -522,8 +520,7 @@ Choose a suitable public NTP time server, e.g. "time.google.com".
 ### `IOTCONNECT_CPID` and `IOTCONNECT_ENV`
 
 Log into your IoTConnect account and open the Key Vault which can be found on
-the [left side of the IoTConnect
-dashboard](https://avnet.iotconnect.io/key-vault).
+the left side of the IoTConnect dashboard.
 
 <img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_17_02_2023_13_15_37.png"/>
 
@@ -605,8 +602,7 @@ The "button" values can also be seen in the terminal output.
 ### Viewing IoTConnect device measurements on the IoTConnect Dashboard
 
 Log into your IoTConnect account and open the appropriate Device page which can
-be found on the [left side of the IoTConnect
-dashboard](https://avnet.iotconnect.io/device/1).
+be found on the left side of the IoTConnect dashboard.
 
 The device page can be selected by using the "Devices" tab at the bottom of the
 page.

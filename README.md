@@ -2,7 +2,7 @@
 To quickly jump to documentation, please use the links below:
 
 ### STMicroelectronics
-* [STM32U5](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32u5)
+* [STM32U5](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32u5) - QuickStart Sample | Developer Guide
 * [STM32L4](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4)
 * [STM32MP157](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP157F-DK2_Demo)
 * [STM32MP135](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo)

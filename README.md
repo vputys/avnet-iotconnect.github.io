@@ -1,4 +1,4 @@
-## Avnet IoTConnect Repositry Index
+## Avnet IoTConnect Repository Index
 To quickly jump to documentation, please use the links below:
 
 ### STMicroelectronics

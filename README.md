@@ -22,3 +22,4 @@ To quickly jump to documentation, please use the links below:
 
 ### NXP
 * [i.MX RT1060 Evaluation Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - Supports Avnet MaaXBoard RT
+* [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md)

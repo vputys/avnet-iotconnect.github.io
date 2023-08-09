@@ -8,18 +8,21 @@ board, using the ck-rx65n sample project, with IoTConnect.
 
 ## Prerequisites
 
+***Note:*** For using E<sup>2</sup>Studio on Linux please follow [this README](/documentation/e2studio/e2studio_linux_guide.md)
+
 - Windows PC (this setup guide details installation, etc. on a Windows PC; a
   Linux setup might be setup in an analogous manner).
 - Internet connection
 - Internet with ethernet connection for the Renesas board’s ethernet.
 - optionally: plastic tweezers.
 
-## Download and install latest Renesas GCC
+## Download and install Renesas GCC
 
-You will need to register to [download the latest GCC
-release](https://llvm-gcc-renesas.com/rx-download-toolchains/).
+***EDIT***: latest GCCRX doesn't seem to work (2023/05). Managed to get going with 2022/04
 
-Please consult Renesas documentation on installing the latest GCC release.
+You will need to register to [download GCC release](https://llvm-gcc-renesas.com/rx-download-toolchains/).
+
+Please consult Renesas documentation on installing GCC release.
 
 ## Download and install latest e<sup>2</sup> studio
 
@@ -174,8 +177,8 @@ can be seen in the "Project Explorer" pane.
 Double-click on "basic-sample.scfg" to bring up the "Overview Information".
 Download any FIT modules.
 
-Press the "Generate Code" button at the top-right corner of the "Project
-Explorer" pane.
+**Press the "Generate Code" button at the top-right corner of the "Project
+Explorer" pane.**
 
 <details><summary>EXAMPLE STEPS TO UPDATE E2 STUDIO FIT MODULES</summary>
 
@@ -201,6 +204,9 @@ will suggest a download.
 </details>
 
 ## Clean and build the project
+
+***IMPORTANT:*** Though Blueboard got working fairly quickly it may be the case you'd need to tweak generated code manually.
+Builds will probably fail without those tweaks. Usually some `#define`'s are missing.
 
 Right-click on the basic-sample item under the ck-rx65n project in the
 "Project Explorer" and select "Clean Project" in case any previous build

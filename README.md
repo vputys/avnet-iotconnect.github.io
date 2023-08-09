@@ -13,7 +13,7 @@ To quickly jump to documentation, please use the links below:
 
 ### Microchip
 * [WFI32-IoT](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot)
-* [AVR EV70](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk) (Arduino)
+* [AVR-IoT Cellular Kit](https://github.com/avnet-iotconnect/iotc-arduino-mchp-avr-sdk) (Arduino)
 * [SAME54xPro](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/same54xpro)
 
 ### Renesas

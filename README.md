@@ -21,6 +21,6 @@ To quickly jump to documentation, please use the links below:
 * [RX65N Cloud Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) (Breen Board)
 
 ### NXP
-* [Avnet MaaxBoard RT1060](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - (i.MX RT1060 Evaluation Kit)
+* [Avnet MaaxBoard RT](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - (i.MX RT1060 Evaluation Kit)
 * [Avnet MaaXBoard AES-MC-SBC-IMX8M-G](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
 * [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md)

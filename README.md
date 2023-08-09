@@ -34,3 +34,6 @@ To quickly jump to documentation, please use the links below:
 * [STM32MP135F MPU](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP135F-DK2_Demo) (STM32MP135F-DK)
 * [STM32MP157F MPU](https://github.com/avnet-iotconnect/iotc-pov-engineering/tree/main/STM32MP157F-DK2_Demo) (STM32MP157F-DK2)
 * [Industrial Sensor Evaluation Kit] (STEVAL-PROTEUS1)
+
+### E2 Studio on Linux
+* [Guide on using E2 Studio on Linux](documentation/e2studio/e2studio_linux_guide.md)

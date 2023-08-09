@@ -1,6 +1,11 @@
 ## Avnet IoTConnect Repository Index
 To quickly jump to documentation, please use the links below:
 
+### Asus PE100A
+* [Motor Monitor Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Motor_Monitor_Demo)
+* [Basic AWS Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Basic_AWS_Demo)
+
+
 ### STMicroelectronics
 * [STM32U5](https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5)
 * [STM32L4](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/stm32l4)
@@ -24,3 +29,6 @@ To quickly jump to documentation, please use the links below:
 * [Avnet MaaxBoard RT](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - (i.MX RT1060 Evaluation Kit)
 * [Avnet MaaXBoard AES-MC-SBC-IMX8M-G](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
 * [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md)
+* [MIMXRT1060-EVKB](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060)
+* [MaaXBoard 8ULP - AES-MAAXB-8ULP-SK-G](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+* [MaaXBoard Mini - AES-MC-SBC-IMX8MINI-G](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)

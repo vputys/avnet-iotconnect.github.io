@@ -19,8 +19,8 @@ To quickly jump to documentation, please use the links below:
 * [Avnet MaaXBoard AES-MC-SBC-IMX8M-G](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
 * [MSC SM2S-IMX8PLUS](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/sm2s-imx8mp.md)
 * [MIMXRT1060-EVKB](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/mimxrt1060)
-* [MaaXBoard 8ULP - AES-MAAXB-8ULP-SK-G](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
-* [MaaXBoard Mini - AES-MC-SBC-IMX8MINI-G](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md)
+* [MaaXBoard 8ULP](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) (AES-MAAXB-8ULP-SK-G)
+* [MaaXBoard Mini](https://github.com/avnet-iotconnect/iotc-yocto-python-sdk/blob/hardknott/board_specific_readmes/maaxboard.md) (AES-MC-SBC-IMX8MINI-G)
 
 ### Renesas
 * [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) (Blue Board)

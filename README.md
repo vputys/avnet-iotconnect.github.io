@@ -19,3 +19,6 @@ To quickly jump to documentation, please use the links below:
 ### Renesas
 * [CK-RK65N](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/ck-rx65n) (Blue Board)
 * [RX65N Cloud Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/rx65ncloudkit) (Breen Board)
+
+### NXP
+* [i.MX RT1060 Evaluation Kit](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/maaxboardrt) - Supports Avnet MaaXBoard RT

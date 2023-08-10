@@ -9,6 +9,8 @@ Kit board(s), using the rx65ncloudkit sample project, with IoTConnect.
 
 ## Prerequisites
 
+***Note:*** For using E<sup>2</sup>Studio on Linux please follow [this README](/documentation/e2studio/e2studio_linux_guide.md)
+
 - Windows PC (this setup guide details installation, etc. on a Windows PC; a
   Linux setup might be setup in an analogous manner).
 - Internet connection
@@ -16,12 +18,13 @@ Kit board(s), using the rx65ncloudkit sample project, with IoTConnect.
   connection).
 - optionally: plastic tweezers.
 
-## Download and install latest Renesas GCC
+### Download and install Renesas GCC
 
-You will need to register to [download the latest GCC
-release](https://llvm-gcc-renesas.com/rx-download-toolchains/).
+***EDIT***: latest GCCRX doesn't seem to work (2023/05). Managed to get going with 2022/04
 
-Please consult Renesas documentation on installing the latest GCC release.
+You will need to register to [download GCC release](https://llvm-gcc-renesas.com/rx-download-toolchains/).
+
+Please consult Renesas documentation on installing GCC release.
 
 ## Download and install latest e<sup>2</sup> studio
 
@@ -196,8 +199,8 @@ can be seen in the "Project Explorer" pane.
 Double-click on "basic-sample.scfg" to bring up the "Overview Information".
 Download any FIT modules.
 
-Press the "Generate Code" button at the top-right corner of the "Project
-Explorer" pane.
+**Press the "Generate Code" button at the top-right corner of the "Project
+Explorer" pane.**
 
 <details><summary>EXAMPLE STEPS TO UPDATE E2 STUDIO FIT MODULES</summary>
 
@@ -236,6 +239,8 @@ artefacts are present.
 
 Right-click on the basic-sample item in the "Project Explorer" and select
 "Build Project".
+
+***IMPORTANT:*** One of the generated config files will cause errors during build. You'd probably need to modify `basic-sample/src/smc_gen/r_config/r_bsp_config.h` and make `#define BSP_CFG_RTOS_USED (5)`. Not sure how to fix this completely as this define is not cotrolled by .scfg file.
 
 <img style="width:75%; height:auto" src="./assets/quickstart/VirtualBox_WinDev2301Eval_09_02_2023_15_05_05.png"/>
 

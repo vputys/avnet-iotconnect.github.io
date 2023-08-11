@@ -7,7 +7,7 @@ To quickly jump to documentation, please use the links below:
 
 ### Infineon Technologies
 * [PSoC 6 WiFi-BT Pioneer Kit](https://github.com/avnet-iotconnect/iotc-modustoolbox-example) (CY8CKIT-062-WIFI-BT)
-* [XENSIV](https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example) (CYSBSYSKIT-DEV-01)
+* [XENSIV™ KIT CSK PASCO2](https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example) (KIT_CSK_PASCO2)
 
 ### Microchip
 * [WFI32-IoT Development Board](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/tree/main/samples/wfi32iot) (EV36W50A)

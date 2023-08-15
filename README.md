@@ -1,7 +1,7 @@
 ## Avnet IoTConnect Repository Index
 To quickly jump to documentation, please use the links below:
 
-### Asus PE100A
+### Asus PE100A (90AE0020)
 * [Motor Monitor Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Motor_Monitor_Demo)
 * [Basic AWS Demo](https://github.com/avnet-iotconnect/iotc-python-examples/tree/main/PE100A_Basic_AWS_Demo)
 

@@ -18,11 +18,11 @@ board, using the ck-rx65n sample project, with IoTConnect.
 
 ## Download and install Renesas GCC
 
-***EDIT***: latest GCCRX doesn't seem to work (2023/05). Managed to get going with 2022/04
-
 You will need to register to [download GCC release](https://llvm-gcc-renesas.com/rx-download-toolchains/).
 
 Please consult Renesas documentation on installing GCC release.
+
+Recommended GCCRX version is 2022/04. 
 
 ## Download and install latest e<sup>2</sup> studio
 
@@ -204,9 +204,6 @@ will suggest a download.
 </details>
 
 ## Clean and build the project
-
-***IMPORTANT:*** Though Blueboard got working fairly quickly it may be the case you'd need to tweak generated code manually.
-Builds will probably fail without those tweaks. Usually some `#define`'s are missing.
 
 Right-click on the basic-sample item under the ck-rx65n project in the
 "Project Explorer" and select "Clean Project" in case any previous build

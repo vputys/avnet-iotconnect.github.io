@@ -1,10 +1,8 @@
 # e² studio on Linux
 
-**And some tips on how to use it**
-
 ***Note:*** Tested on Ubuntu 22.04
 
-***Note:*** This page was created during work with Blue and Green (the CK-RX65N and the RX65NCloudKit respectively) boards and IoTC codebase for them, so the paths and names may be different for other boards/projects.
+***Note:*** This page was created during work with the CK-RX65N and the RX65NCloudKit (Blue PCB and Green PCB) and Avnet IoTConnect codebase for them, so the paths and names may be different for other boards/projects.
 
 ## Installation
 
@@ -12,21 +10,21 @@
 
 ***Note:*** All the testing was done on 2022/04 version of GCCRX. However, others managed to get it working with 2023/05.
 
-***Note:*** Previous note only relates to Blue and Green board projects (CK-RX65N and RX65NCloudKit).
+***Note:*** Previous note only relates to CK-RX65N and RX65NCloudKit projects.
 
 - Download and install [e² studio for Linux](https://www.renesas.com/us/en/software-tool/e2studio-information-rx-family) (2023-07 version was used)
 ***Note:*** Default install path will be `~/.local/share/renesas/e2_studio/`<br>
 The following options are required for CloudKit development: RX support, and optionally Jlink debugging, terminal, and git support.
 
-- Reboot. (this is important for some reason)
+- Reboot
 
-## Configuring and building
+## Configuring and building (ck-rx65n project as example)
 
 Clone and import project (include nested if needed)
 
 Manually add toolchain to e² studio - `Help -> Add Renesas Toolchains -> Add -> <path to installed toolchain>` (this needs to be done once per e² studio installation). ***Note:*** Default install directory will be in `~/toolchains/`
 
-Under ck-rx65n project add that installed toolchain by right clicking on top directory for every subdirectory (basic-sample, filex, etc...) in `C/C++ Project settings -> Toolchain`
+Under `ck-rx65n` project add that installed toolchain by right clicking on top directory for every subdirectory (basic-sample, filex, etc...) in `C/C++ Project settings -> Toolchain`
 
 Under your project, you will need to update the selected toolchain, select the `basic-sample` folder and right click and access `C/C++ Project settings -> Toolchain`, select the correct toolchain and apply. Most probably, you'll need to do it for the rest of subdirectories under top project folder (netxduo, filex, etc...).
 
@@ -74,7 +72,7 @@ Right-click on project `basic-sample -> Debug As -> Debug Configurations`.
 
 In `Renesas GDB Hardware Debugging -> basic-sample Hardware Debugging -> Debugger`:
 
-***NOTE:*** This setup is valid just for CK-RX65N (Blueboard) and RX65NCloudKit (Greenboard)
+***NOTE:*** This setup is valid just for CK-RX65N and RX65NCloudKit.
 In GDB Settings Tab:
  - Debug Hardware - `E2Lite (RX)`
  - Target Device - `RSF565NE`

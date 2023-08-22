@@ -1,0 +1,1044 @@
+{
+    "ddType": 2,
+    "items": [
+        {
+            "widgetGuid": "A8CB394D-15B1-42C9-94FC-AD7BDC599E2A",
+            "widgetProperties": {
+                "i": "Image",
+                "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "",
+                "titleAlign": "",
+                "contents": {
+                    "option": {
+                        "imageUpload": "false",
+                        "imageUrl": "true",
+                        "imageDevice": "false",
+                        "imageTelemetry": "false",
+                        "key": "option"
+                    },
+                    "upload": {
+                        "imageurl": "",
+                        "key": "upload"
+                    },
+                    "url": {
+                        "imageurl": "https://saleshosted.z13.web.core.windows.net/media/stmicro/u5/stm32u5_overview.png",
+                        "key": "url"
+                    },
+                    "device": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "device"
+                    },
+                    "telemetry": {
+                        "deviceGuid": "",
+                        "deviceName": "",
+                        "imageurl": "",
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "0",
+                "w": "20",
+                "h": "18",
+                "i": "Image",
+                "minW": "5",
+                "minH": "5",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "8BF5A2DF-51FA-479B-B5D8-8413DC425CFF",
+            "widgetProperties": {
+                "i": "LiveLineChart",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Environmental Sensors",
+                "titleAlign": "",
+                "contents": {
+                    "liveChart": {
+                        "device": {
+                            "deviceGuid": "DFC000A9-969F-49EB-AE03-89E65F7F3B03",
+                            "deviceUniqueId": "eval3-02095059215AD42AC20139"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "85355752-3033-496C-B1E9-011AC3F54A28",
+                                    "attributeName": "magnetometer.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "6",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "6"
+                                },
+                                {
+                                    "attributeGuid": "F77FAC06-970A-4EED-8561-1939E5EA6ACA",
+                                    "attributeName": "accelerometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "16",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "16"
+                                },
+                                {
+                                    "attributeGuid": "C3497337-69C2-4FCB-8B92-1D70D70D0347",
+                                    "attributeName": "gyroscope.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-157",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-157"
+                                },
+                                {
+                                    "attributeGuid": "AE9AB25E-32A5-417D-B685-2322543B4448",
+                                    "attributeName": "accelerometer.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1013",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1013"
+                                },
+                                {
+                                    "attributeGuid": "52286301-7D31-432E-ABE6-58DEFAF91A1B",
+                                    "attributeName": "button_counter",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "0",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "0"
+                                },
+                                {
+                                    "attributeGuid": "AEEF0DBF-5F32-43ED-BFED-71395948F040",
+                                    "attributeName": "pressure",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "840.41064453125",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "840.41064453125"
+                                },
+                                {
+                                    "attributeGuid": "E94F49FC-6A6F-403B-BABF-72A866D8232C",
+                                    "attributeName": "gyroscope.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "385",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "385"
+                                },
+                                {
+                                    "attributeGuid": "6055189D-DC35-4A02-A0B1-86572662E8E2",
+                                    "attributeName": "humidity",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "30.1853141784668",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "30.1853141784668"
+                                },
+                                {
+                                    "attributeGuid": "F208E4E7-4059-483D-B0E9-929B1AFC4812",
+                                    "attributeName": "gyroscope.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-446",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-446"
+                                },
+                                {
+                                    "attributeGuid": "9D7C8E48-6166-44D3-8E23-95AA38180936",
+                                    "attributeName": "temperature",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "33.303104400634766",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "33.303104400634766"
+                                },
+                                {
+                                    "attributeGuid": "1CDB63FA-2ED4-4E48-BC9D-9C91B06C1514",
+                                    "attributeName": "magnetometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "540",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "540"
+                                },
+                                {
+                                    "attributeGuid": "19D5F9D8-120A-4108-908B-BC73F798D118",
+                                    "attributeName": "accelerometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-10",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-10"
+                                },
+                                {
+                                    "attributeGuid": "DF4A7AD7-C5D0-4FDD-B414-E77A491FA56E",
+                                    "attributeName": "magnetometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "37",
+                                    "deviceUpdatedDate": "2023-08-17T20:18:17.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "37"
+                                }
+                            ]
+                        },
+                        "key": "liveChart",
+                        "recentEndPoints": "10"
+                    }
+                }
+            },
+            "properties": {
+                "x": "20",
+                "y": "0",
+                "w": "15",
+                "h": "16",
+                "i": "LiveLineChart",
+                "minW": "15",
+                "minH": "15",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "6A7BB4C8-1763-41EB-A490-0764F72A527F",
+            "widgetProperties": {
+                "i": "DeviceLatestValue",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Accelerometer & Magnetometer",
+                "titleAlign": "",
+                "contents": {
+                    "devicelatestvalue": {
+                        "device": {
+                            "deviceGuid": "DFC000A9-969F-49EB-AE03-89E65F7F3B03",
+                            "deviceUniqueId": "eval3-02095059215AD42AC20139"
+                        },
+                        "boxtypes": "3",
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "accelerometer.x",
+                                    "attributeName": "accelerometer.x"
+                                },
+                                {
+                                    "attributeGuid": "magnetometer.x",
+                                    "attributeName": "magnetometer.x"
+                                },
+                                {
+                                    "attributeGuid": "accelerometer.y",
+                                    "attributeName": "accelerometer.y"
+                                },
+                                {
+                                    "attributeGuid": "magnetometer.y",
+                                    "attributeName": "magnetometer.y"
+                                },
+                                {
+                                    "attributeGuid": "accelerometer.z",
+                                    "attributeName": "accelerometer.z"
+                                },
+                                {
+                                    "attributeGuid": "magnetometer.z",
+                                    "attributeName": "magnetometer.z"
+                                }
+                            ]
+                        },
+                        "key": "devicelatestvalue"
+                    }
+                }
+            },
+            "properties": {
+                "x": "35",
+                "y": "0",
+                "w": "15",
+                "h": "16",
+                "i": "DeviceLatestValue",
+                "minW": "15",
+                "minH": "16",
+                "maxH": "16",
+                "maxW": "15",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#4a90e2",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Button Counter",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "button_counter",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "button_counter",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "DFC000A9-969F-49EB-AE03-89E65F7F3B03",
+                            "deviceUniqueId": "eval3-02095059215AD42AC20139"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "85355752-3033-496C-B1E9-011AC3F54A28",
+                                    "attributeName": "magnetometer.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "22",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "22"
+                                },
+                                {
+                                    "attributeGuid": "F77FAC06-970A-4EED-8561-1939E5EA6ACA",
+                                    "attributeName": "accelerometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "16",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "16"
+                                },
+                                {
+                                    "attributeGuid": "C3497337-69C2-4FCB-8B92-1D70D70D0347",
+                                    "attributeName": "gyroscope.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-122",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-122"
+                                },
+                                {
+                                    "attributeGuid": "AE9AB25E-32A5-417D-B685-2322543B4448",
+                                    "attributeName": "accelerometer.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1013",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1013"
+                                },
+                                {
+                                    "attributeGuid": "52286301-7D31-432E-ABE6-58DEFAF91A1B",
+                                    "attributeName": "button_counter",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "3",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "3"
+                                },
+                                {
+                                    "attributeGuid": "AEEF0DBF-5F32-43ED-BFED-71395948F040",
+                                    "attributeName": "pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "839.999755859375",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "839.999755859375"
+                                },
+                                {
+                                    "attributeGuid": "E94F49FC-6A6F-403B-BABF-72A866D8232C",
+                                    "attributeName": "gyroscope.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "350",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "350"
+                                },
+                                {
+                                    "attributeGuid": "6055189D-DC35-4A02-A0B1-86572662E8E2",
+                                    "attributeName": "humidity",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "29.513986587524414",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "29.513986587524414"
+                                },
+                                {
+                                    "attributeGuid": "F208E4E7-4059-483D-B0E9-929B1AFC4812",
+                                    "attributeName": "gyroscope.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-446",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-446"
+                                },
+                                {
+                                    "attributeGuid": "9D7C8E48-6166-44D3-8E23-95AA38180936",
+                                    "attributeName": "temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34.0041389465332",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34.0041389465332"
+                                },
+                                {
+                                    "attributeGuid": "AA7A355D-BCC5-4C86-9E92-99DE226CAA42",
+                                    "attributeName": "version",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "1.1.1",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1.1.1"
+                                },
+                                {
+                                    "attributeGuid": "1CDB63FA-2ED4-4E48-BC9D-9C91B06C1514",
+                                    "attributeName": "magnetometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "574",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "574"
+                                },
+                                {
+                                    "attributeGuid": "19D5F9D8-120A-4108-908B-BC73F798D118",
+                                    "attributeName": "accelerometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-13",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-13"
+                                },
+                                {
+                                    "attributeGuid": "DF4A7AD7-C5D0-4FDD-B414-E77A491FA56E",
+                                    "attributeName": "magnetometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "72",
+                                    "deviceUpdatedDate": "2023-08-17T20:40:16.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "72"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "50",
+                "y": "0",
+                "w": "7",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "A0326788-ACC8-4C4C-8243-98112CAEB98B",
+            "widgetProperties": {
+                "i": "Telemetry",
+                "background": "#fff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Environmental Sensors",
+                "titleAlign": "",
+                "contents": {
+                    "telemetry": {
+                        "showHeader": "false",
+                        "showDate": "false",
+                        "device": {
+                            "deviceGuid": "DFC000A9-969F-49EB-AE03-89E65F7F3B03",
+                            "deviceUniqueId": "eval3-02095059215AD42AC20139"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "AEEF0DBF-5F32-43ED-BFED-71395948F040",
+                                    "attributeName": "pressure",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "6055189D-DC35-4A02-A0B1-86572662E8E2",
+                                    "attributeName": "humidity",
+                                    "checked": "true"
+                                },
+                                {
+                                    "attributeGuid": "9D7C8E48-6166-44D3-8E23-95AA38180936",
+                                    "attributeName": "temperature",
+                                    "checked": "true"
+                                }
+                            ]
+                        },
+                        "key": "telemetry"
+                    }
+                }
+            },
+            "properties": {
+                "x": "20",
+                "y": "16",
+                "w": "15",
+                "h": "10",
+                "i": "Telemetry",
+                "minW": "15",
+                "minH": "6",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "E413CDFD-54EB-465E-BA97-CE610867E440",
+            "widgetProperties": {
+                "i": "DeviceCommand",
+                "background": "#fff",
+                "fontColor": "#000",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Device Command",
+                "titleAlign": "",
+                "contents": {
+                    "deviceCommand": {
+                        "template": "776ED929-358B-4C00-B26F-AFE646F06A5B",
+                        "device": "eval3-02095059215AD42AC20139",
+                        "deviceGuid": "DFC000A9-969F-49EB-AE03-89E65F7F3B03"
+                    }
+                }
+            },
+            "properties": {
+                "x": "35",
+                "y": "16",
+                "w": "22",
+                "h": "10",
+                "i": "DeviceCommand",
+                "minW": "22",
+                "minH": "10",
+                "maxH": "20",
+                "maxW": "35",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#03234b",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "STM32U5 Kit",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "18",
+                "w": "10",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "F7979C1B-8637-4667-90A2-6961052C6E21",
+            "widgetProperties": {
+                "i": "Live",
+                "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Firmware Version",
+                "titleAlign": "",
+                "contents": {
+                    "attributeValue": {
+                        "attributeName": "version",
+                        "key": "attributeValue"
+                    },
+                    "attributeTime": {
+                        "attributeName": "version",
+                        "key": "attributeTime"
+                    },
+                    "live": {
+                        "device": {
+                            "deviceGuid": "DFC000A9-969F-49EB-AE03-89E65F7F3B03",
+                            "deviceUniqueId": "eval3-02095059215AD42AC20139"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "85355752-3033-496C-B1E9-011AC3F54A28",
+                                    "attributeName": "magnetometer.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "22",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "22"
+                                },
+                                {
+                                    "attributeGuid": "F77FAC06-970A-4EED-8561-1939E5EA6ACA",
+                                    "attributeName": "accelerometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "17"
+                                },
+                                {
+                                    "attributeGuid": "C3497337-69C2-4FCB-8B92-1D70D70D0347",
+                                    "attributeName": "gyroscope.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-43",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-43"
+                                },
+                                {
+                                    "attributeGuid": "AE9AB25E-32A5-417D-B685-2322543B4448",
+                                    "attributeName": "accelerometer.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1012",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1012"
+                                },
+                                {
+                                    "attributeGuid": "52286301-7D31-432E-ABE6-58DEFAF91A1B",
+                                    "attributeName": "button_counter",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "3",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "3"
+                                },
+                                {
+                                    "attributeGuid": "AEEF0DBF-5F32-43ED-BFED-71395948F040",
+                                    "attributeName": "pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "840.115966796875",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "840.115966796875"
+                                },
+                                {
+                                    "attributeGuid": "E94F49FC-6A6F-403B-BABF-72A866D8232C",
+                                    "attributeName": "gyroscope.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "367",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "367"
+                                },
+                                {
+                                    "attributeGuid": "6055189D-DC35-4A02-A0B1-86572662E8E2",
+                                    "attributeName": "humidity",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "29.888111114501953",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "29.888111114501953"
+                                },
+                                {
+                                    "attributeGuid": "F208E4E7-4059-483D-B0E9-929B1AFC4812",
+                                    "attributeName": "gyroscope.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-472",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-472"
+                                },
+                                {
+                                    "attributeGuid": "9D7C8E48-6166-44D3-8E23-95AA38180936",
+                                    "attributeName": "temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "33.7458610534668",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "33.7458610534668"
+                                },
+                                {
+                                    "attributeGuid": "AA7A355D-BCC5-4C86-9E92-99DE226CAA42",
+                                    "attributeName": "version",
+                                    "checked": "true",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "1.1.1",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1.1.1"
+                                },
+                                {
+                                    "attributeGuid": "1CDB63FA-2ED4-4E48-BC9D-9C91B06C1514",
+                                    "attributeName": "magnetometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "576",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "576"
+                                },
+                                {
+                                    "attributeGuid": "19D5F9D8-120A-4108-908B-BC73F798D118",
+                                    "attributeName": "accelerometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-12",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-12"
+                                },
+                                {
+                                    "attributeGuid": "DF4A7AD7-C5D0-4FDD-B414-E77A491FA56E",
+                                    "attributeName": "magnetometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "61",
+                                    "deviceUpdatedDate": "2023-08-17T20:33:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "61"
+                                }
+                            ]
+                        },
+                        "rules": "",
+                        "key": "live"
+                    }
+                }
+            },
+            "properties": {
+                "x": "10",
+                "y": "18",
+                "w": "10",
+                "h": "4",
+                "i": "Live",
+                "minW": "7",
+                "minH": "4",
+                "maxH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#03234b",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Quick Start Guide",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5/blob/main/IoTConnect/docs/QUICKSTART.md",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "20",
+                "w": "10",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#03234b",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Source Code (GitHub)",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://github.com/avnet-iotconnect/iotc-azurertos-stm32-u5",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "22",
+                "w": "10",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "6FEFF6B7-15C4-4095-A156-87A1B38D2FF5",
+            "widgetProperties": {
+                "i": "Transformation",
+                "background": "#ffffff",
+                "fontColor": "#343434",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "Board Orientation",
+                "titleAlign": "",
+                "contents": {
+                    "Transformation": {
+                        "device": {
+                            "deviceGuid": "DFC000A9-969F-49EB-AE03-89E65F7F3B03",
+                            "deviceUniqueId": "eval3-02095059215AD42AC20139"
+                        },
+                        "attributes": {
+                            "attribute": [
+                                {
+                                    "attributeGuid": "85355752-3033-496C-B1E9-011AC3F54A28",
+                                    "attributeName": "magnetometer.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "25",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "25"
+                                },
+                                {
+                                    "attributeGuid": "F77FAC06-970A-4EED-8561-1939E5EA6ACA",
+                                    "attributeName": "accelerometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "17",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "17"
+                                },
+                                {
+                                    "attributeGuid": "C3497337-69C2-4FCB-8B92-1D70D70D0347",
+                                    "attributeName": "gyroscope.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-157",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-157"
+                                },
+                                {
+                                    "attributeGuid": "AE9AB25E-32A5-417D-B685-2322543B4448",
+                                    "attributeName": "accelerometer.z",
+                                    "checked": "true",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "1014",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1014"
+                                },
+                                {
+                                    "attributeGuid": "52286301-7D31-432E-ABE6-58DEFAF91A1B",
+                                    "attributeName": "button_counter",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "3",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "3"
+                                },
+                                {
+                                    "attributeGuid": "AEEF0DBF-5F32-43ED-BFED-71395948F040",
+                                    "attributeName": "pressure",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "840.041015625",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "840.041015625"
+                                },
+                                {
+                                    "attributeGuid": "E94F49FC-6A6F-403B-BABF-72A866D8232C",
+                                    "attributeName": "gyroscope.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "245",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "245"
+                                },
+                                {
+                                    "attributeGuid": "6055189D-DC35-4A02-A0B1-86572662E8E2",
+                                    "attributeName": "humidity",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "29.60839080810547",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "29.60839080810547"
+                                },
+                                {
+                                    "attributeGuid": "F208E4E7-4059-483D-B0E9-929B1AFC4812",
+                                    "attributeName": "gyroscope.z",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-341",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-341"
+                                },
+                                {
+                                    "attributeGuid": "9D7C8E48-6166-44D3-8E23-95AA38180936",
+                                    "attributeName": "temperature",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "34.11482620239258",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "34.11482620239258"
+                                },
+                                {
+                                    "attributeGuid": "AA7A355D-BCC5-4C86-9E92-99DE226CAA42",
+                                    "attributeName": "version",
+                                    "checked": "false",
+                                    "dataType": "STRING",
+                                    "attributeLatestValue": "1.1.1",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "1.1.1"
+                                },
+                                {
+                                    "attributeGuid": "1CDB63FA-2ED4-4E48-BC9D-9C91B06C1514",
+                                    "attributeName": "magnetometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "582",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "582"
+                                },
+                                {
+                                    "attributeGuid": "19D5F9D8-120A-4108-908B-BC73F798D118",
+                                    "attributeName": "accelerometer.y",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "-13",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "-13"
+                                },
+                                {
+                                    "attributeGuid": "DF4A7AD7-C5D0-4FDD-B414-E77A491FA56E",
+                                    "attributeName": "magnetometer.x",
+                                    "checked": "false",
+                                    "dataType": "NUMBER",
+                                    "attributeLatestValue": "67",
+                                    "deviceUpdatedDate": "2023-08-17T20:36:38.000Z",
+                                    "gatewayUpdatedDate": "NA",
+                                    "attributeValue": "67"
+                                }
+                            ]
+                        },
+                        "key": "Transformation",
+                        "transformations": [
+                            {
+                                "condition": "gt",
+                                "conditionValue": "900",
+                                "type": "Text",
+                                "errors": "",
+                                "typeValue": "Right-side Up"
+                            },
+                            {
+                                "condition": "lt",
+                                "conditionValue": "-900",
+                                "type": "Text",
+                                "errors": "",
+                                "typeValue": "Upside Down"
+                            }
+                        ]
+                    }
+                }
+            },
+            "properties": {
+                "x": "10",
+                "y": "22",
+                "w": "10",
+                "h": "4",
+                "i": "Transformation",
+                "minW": "7",
+                "minH": "4",
+                "isStatic": "false"
+            }
+        },
+        {
+            "widgetGuid": "57E7E7D3-DE04-4CE3-84C3-63D9CC473F75",
+            "widgetProperties": {
+                "i": "HyperLink",
+                "background": "#03234b",
+                "fontColor": "#ffffff",
+                "fontFamily": "Proxima Nova",
+                "fontSize": "18",
+                "title": "IoTConnect",
+                "titleAlign": "center",
+                "contents": {
+                    "hyperlink": {
+                        "link": "https://iotconnect.io",
+                        "key": "hyperlink"
+                    }
+                }
+            },
+            "properties": {
+                "x": "0",
+                "y": "24",
+                "w": "10",
+                "h": "2",
+                "i": "HyperLink",
+                "minW": "5",
+                "minH": "2",
+                "maxH": "2",
+                "isStatic": "false"
+            }
+        }
+    ]
+}

@@ -59,7 +59,7 @@ Navigate there using the image below:<br>![Key Vault](https://github.com/avnet-i
 
 ## IoTConnect Device Template Setup
 A Device Template with Self Signed authentication type will need to be imported.
-* Download the premade [Device Template with Self-Signed Auth](documentation/iotc-azurertos-stm32-u5/templates/device/stm32u5self_signed_template.JSON).
+* Download the premade [Device Template with Self-Signed Auth](templates/device/stm32u5self_signed_template.JSON).
 * Import the template into your IoTConnect instance. (A guide on [Importing a Device Template](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/import_device_template.md) is available or for more information on [Template Management](https://docs.iotconnect.io/iotconnect/user-manuals/devices/template-management/), please see the [IoTConnect Documentation](https://iotconnect.io) website.)
 
 ## IoTConnect Device Setup

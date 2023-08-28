@@ -51,7 +51,7 @@ MPLAB IPE and 32-bit device support are the only required options during the ins
   * Click the **Program** button.
   * Screenshot below shows an example of what the IPE would look like once the device has been programmed successfully:
 
-![IPE Screenshot](media/IPE.png "IPE Screenshot")
+![IPE Screenshot](assets/ipe.png "IPE Screenshot")
 
 ## Cloud Account Setup
 An IoTConnect account is required to continue this guide. If you need to create an account, a free 2-month subscription is available.  Please follow the [Creating a New IoTConnect Account](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/subscription/subscription.md) guide and return to this guide once complete.
@@ -78,7 +78,7 @@ The private key is securely stored on the device and cannot be accessed even pro
 The only information that may potentially "leak" by using a public web site in this fashion is the informational 
 manufacturer data, including the device serial number. Below is a sample screenshot:
 
-![Fingerprint Web Site Screenshot](media/fingerprint.png "Fingerprint Web Site Screenshot")
+![Fingerprint Web Site Screenshot](assets/fingerprint.png "Fingerprint Web Site Screenshot")
 
 ## IoTConnect Device Setup
 * Create a new device in the IoTConnect portal. (Follow the [Create a New Device](https://github.com/avnet-iotconnect/avnet-iotconnect.github.io/blob/main/documentation/iotconnect/create_new_device.md) guide for a detailed walkthrough.)

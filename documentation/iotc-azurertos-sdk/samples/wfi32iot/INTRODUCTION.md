@@ -57,14 +57,14 @@ MikroElektronika manufactures hundreds of ["Click" boards](https://www.mikroe.co
 Any combination of up to 4 of these Click boards can be connected to the WFI32E01 Development Board at the same time using the MikroElektronika [Shuttle Bundle](https://www.mikroe.com/mikrobus-shuttle-bundle) accessory kit. The bundle features the [Shuttle click](https://www.mikroe.com/shuttle-click) 4-socket expansion board, which provides an easy and elegant solution for stacking up to four Click boards™ onto a single mikroBUS™ socket. It is a perfect solution for expanding the capacity of the development system with additional mikroBUS™ sockets when there is a demand for using more Click boards™ than the used development system is able to support.
 
 ## Program the WFI32-IoT Development Board
-Please refer to the [QUICKSTART.md](https://github.com/avnet-iotconnect/iotc-azurertos-sdk/blob/main/samples/wfi32iot/QUICKSTART.md).
+Please refer to the [QUICKSTART.md](QUICKSTART.md).
 
 ## References
 Refer to the following links for additional information for IoT Explorer, IoT Hub, DPS, Plug and Play model, and IoT Central
 
 •	[IoTConnect overview](https://help.iotconnect.io/knowledgebase/iotconnect-overview/)
 
-•	[IotConnect quick start guide](https://help.iotconnect.io/knowledgebase/quick-start/)
+•	[IoTConnect quick start guide](https://help.iotconnect.io/knowledgebase/quick-start/)
 
 •	[Onboard a device with IoTConnect](https://help.iotconnect.io/knowledgebase/device-onboarding/)
 

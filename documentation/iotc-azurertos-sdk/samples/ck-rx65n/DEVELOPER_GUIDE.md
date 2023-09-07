@@ -483,9 +483,12 @@ When I created the template I pasted the same value in both the
 "Primary Key" and the "Secondary Key" and included the trailing "=" equals
 sign.
 
-## Buidling CLI app
+## Buidling Command-line Interface (further - CLI) app
 
 ### Checking `app_config.h`
+
+
+***Please note:*** while the software is capable of using X509 certificates - this is outside the scope of this developers guide.
 
 If CLI app is needed - you should reset `app_config.h` file to its default state. Please click below. After that - save,refresh, rebuild and reflash the binaries. To see how to use CLI app see [this section](#using-cli-app) 
 
@@ -536,6 +539,9 @@ If CLI app is needed - you should reset `app_config.h` file to its default state
 ## Building app with preset config
 
 ### Updating `app_config.h`
+
+***Please note:*** while the software is capable of using X509 certificates - this is outside the scope of this developers guide.
+
 
 In `app_config.h`
 
